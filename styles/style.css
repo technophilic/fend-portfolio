@@ -1,21 +1,26 @@
-.profile {
-    width: 130px;
-}
-
+/* Color Scheme */
 .blue-gray {
     color: #2d3c49;
 }
 
-.fa{
-    color: rgba(45, 60, 73, 0.76);
-}
-.fa:hover{
-    transition: color 0.2s ease-in;
-    color: #2d3c49;
-}
 .sky-blue{
     color: #02b3e4;
 }
+
+
+/* Header */
+.profile {
+    width: 130px;
+}
+
+h1.header-text {
+    font-size: 40px;
+}
+
+.header-content {
+    border-bottom: solid 3px #7d97ad;
+}
+
 @media (min-width: 601px) {
     .header-text {
         text-align: right;
@@ -25,19 +30,27 @@
     .header-text {
         text-align: center;
     }
-    .myvit{
+
+    .myvit {
         width: 100%;
     }
 }
-h1.header-text {
-    font-size: 40px;
-}
-.header-content {
-    border-bottom: solid 3px #7d97ad;
-}
-.featured-header{
+
+
+/* Card Layout */
+.featured-header {
     font-size: 35px;
 }
-.card-content{
+
+.card-content {
     height: 120px;
+}
+
+.fa {
+    color: rgba(45, 60, 73, 0.76);
+}
+
+.fa:hover {
+    transition: color 0.2s ease-in;
+    color: #2d3c49;
 }
